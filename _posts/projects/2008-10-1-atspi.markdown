@@ -1,0 +1,24 @@
+---
+layout: post
+title: AT-SPI
+description: D-Bus based accessibility framework for GNOME.
+---
+
+AT-SPI (Assistive Technology Service Provider Interface) is a toolkit
+independent accessibility API for the [GNOME](http://www.gnome.org/) desktop,
+standardised by the
+[Linux Foundation](http://www.linuxfoundation.org/collaborate/workgroups/accessibility/atk/at-spi/at-spi_on_d-bus). AT-SPI was originally written as a CORBA API. This IPC mechanism has been deprecated in both GNOME and KDE environments and is no-longer useful. I have worked on replacing this with a compatible API based on [D-Bus](http://www.freedesktop.org/wiki/Software/dbus). The intention is to have an accessibility transport layer that works across the GNOME and KDE desktops. The project encompasses creating client and server libraries that are API compatible with their CORBA counterparts.
+
+#### Skills
+
+C, Python, D-Bus, Acessibility, GNOME, Linux, Gtk+, X
+
+#### Site
+
+[http://www.a11y.org/dbus](http://www.a11y.org/dbus)
+
+#### Code
+
+ * [http://git.gnome.org/browse/pyatspi2/](http://git.gnome.org/browse/pyatspi2/)
+ * [http://git.gnome.org/browse/at-spi2-core/](http://git.gnome.org/browse/at-spi2-core/)
+ * [http://git.gnome.org/browse/at-spi2-atk/](http://git.gnome.org/browse/at-spi2-atk/)

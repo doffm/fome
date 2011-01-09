@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class='container headroom'>
+<div id='page'>
+
+      <a href="http://github.com/doffm">
+        <img style="position: absolute; top: 0; left: 0; border: 0;" 
+             src="https://assets1.github.com/img/5d21241b64dc708fcbb701f68f72f41e9f1fadd6?repo=&url=http%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_left_red_aa0000.png&path="
+             alt="Fork me on GitHub">
+      </a>
+
+<img id='headshot' src='/media/markpolaroid.png' alt='Headshot of Mark Doffman'/>
+
+<div id='about'>
+  {{content}}
+</div>
+
+<div id='contact'>
+  <ul class='box-list'>
+    <li><a href="http://twitter.com/doffm">
+      <img src='/media/twitter.png' alt='twitter'/>
+    </a></li> 
+    <li><a href="http://doffm.posterous.com/">
+      <img src='/media/posterous.png' alt='posterous'/>
+    </a></li> 
+    <li><a href="http://www.facebook.com/mark.doffman">
+      <img src='/media/facebook.png' alt='facebook'/>
+    </a></li> 
+    <li><a href="http://www.flickr.com/photos/doffm">
+      <img src='/media/flickr.png' alt='flickr'/>
+    </a></li> 
+    <li><a href="http://uk.linkedin.com/pub/mark-doffman/14/924/204">
+      <img src='/media/linkedin.png' alt='LinkedIn'/>
+    </a></li> 
+  </ul>
+</div>
+
+<div id='projects'>
+  <h4> Projects </h4>
+</div>
+
+<dl>
+{% for post in site.posts %}
+  <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+  <dd>{{post.description}}</dd>
+{% endfor %}
+</dl>
+
+</div>
+</div>

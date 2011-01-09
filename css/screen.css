@@ -1,0 +1,97 @@
+body {
+  background-color: #CCC;
+
+	color: #333;
+	font-family: "Cantarell", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+  color: #222;
+	font-family: "Volkorn", "Bookman Old Style", Georgia, serif;
+}
+
+h4, h5, h6 {
+  font-style: oblique;
+  color: #666;
+}
+
+
+a {
+	color: #361;
+	text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+}
+
+.container {
+  background-color: #FFF;
+
+  border: 1px solid #BBB;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.8);
+	-moz-box-shadow: inset 0 0 5px rgba(0,0,0,.8);
+	box-shadow: inner 0 0 5px rgba(0,0,0,.8);
+
+	max-width: 620px;
+	margin: 4em auto;
+  padding: 2em 0;
+	text-align:left;
+}
+
+#page {
+  max-width: 540px;
+  margin: 0 auto;
+
+  padding: 0 10px;
+}
+
+#contact {
+  background-color: #CDE;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+
+  margin: 2em 0;
+  padding: 1em 0 0.5em 0;
+}
+
+ul.box-list {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.box-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container.headroom {
+  margin: 208px auto 4em auto;
+  padding: 5em 0 2em 0;
+}
+
+#headshot {
+  float: right;
+  margin: -268px 0 0 10px;
+}
+
+dl dt {
+  font-weight: normal;
+}
+
+#project {
+  margin-bottom: 3em;
+}
+
+.back a {
+  text-decoration: none;
+}

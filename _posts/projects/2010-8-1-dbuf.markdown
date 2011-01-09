@@ -1,0 +1,22 @@
+---
+layout: post
+title: dbuf
+description: Interface description language for the D-Bus messaging system.
+---
+
+dbuf is an interface description language closely tied to 
+[D-Bus](http://www.freedesktop.org/wiki/Software/dbus). The language has
+syntax for describing D-Bus interfaces, messages, errors, and replies. It
+can also combine basic D-Bus types in-to compound structures and enums that
+can be used in descriptions of the interfaces. I has a modules system and
+compiles down to D-Bus introspection XML. The compiler is written in Python,
+but uses the [Antlr](http://www.antlr.org/) to describe the syntax and
+generate lexers, parsers and output generators.
+
+#### Skills
+
+Python, Antlr, Compilers, D-Bus
+
+#### Code
+
+[http://github.com/doffm/dbuf](http://github.com/doffm/dbuf)
