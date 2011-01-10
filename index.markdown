@@ -20,5 +20,5 @@ RDF and SPARQL with an open-source mobile platform.
 
 You can find out more by visiting my blog at
 [posterous](http://doffm.posterous.com). To contact me please send a message
-to [@doffm](http://doffm.twitter.com) or send a e-mail to
+to [@doffm](http://twitter.com/doffm) or send a e-mail to
 [mark.doffman@gmail.com](mailto:mark.doffman@gmail.com).
