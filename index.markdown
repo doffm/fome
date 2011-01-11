@@ -19,6 +19,8 @@ this site, the rest should be available on
 RDF and SPARQL with an open-source mobile platform.
 
 You can find out more by visiting my blog at
-[posterous](http://doffm.posterous.com). To contact me please send a message
-to [@doffm](http://twitter.com/doffm) or send a e-mail to
-[mark.doffman@gmail.com](mailto:mark.doffman@gmail.com).
+[posterous](http://doffm.posterous.com). There is also an archive available
+of [my old wordpress blog](/wordpress.php).
+
+To contact me please send a messageto [@doffm](http://twitter.com/doffm)
+or send a e-mail to [mark.doffman@gmail.com](mailto:mark.doffman@gmail.com).
